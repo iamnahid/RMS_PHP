@@ -1,0 +1,203 @@
+.bodyDiv{
+    position: absolute;
+    width: 100%;
+    height: 100%;    
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 22.5% 75%;
+    grid-column-gap: 2.5%;
+}
+.colSec{
+    position: absolute;
+    top: 12.5%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(243, 255, 72, 0.24); */
+}
+#addCol{
+    position: relative;
+    left: 5%;
+    width: 100%;
+    height: 85%;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-rows: 22% 25% 50%;
+    grid-row-gap: 0.5%;
+}
+.addSec{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(173, 216, 230, 0.432); */
+}
+#catForm, #detailsForm{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 65% 30%;
+    grid-column-gap: 2.5%;
+}
+.col{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+#itemAdd a, #catAdd a, #detTit{
+    display: block;
+    position: relative;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: rgb(104, 104, 104);
+}
+
+#addItem{
+    display: none;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+#aItem, #aItemRefId, #items, #aCat, #aCatRefId, #ditems, #dcategory, #aDet, #aDetRefId{
+    position: relative;
+    top: 0;
+    left: 15%;
+    width: 70%;
+    height: 35px;
+    margin-top: 10px;
+    text-align: left;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: rgb(104, 104, 104);
+    background-color: white;
+    border: none;
+    border-bottom: 2px solid rgba(7, 194, 94, 0.596);
+    cursor:pointer;
+    position:relative;
+    margin-top: 10px;
+    outline: none;
+    box-shadow: none;
+}
+#catTit, #detTit{
+    display: block;
+}
+#addCat, #addDet{
+    display: none;
+}
+#items, #aCat, #aCatRefId, #ditems, #dcategory,#aDetRefId, #aDet, #detCat, #detItems{
+    position: relative;
+    top: 0;
+    left: 0%;
+    width: 80%;
+    margin-top: 5px;
+
+}
+#ditems, #aDet, #aDetRefId{
+    position: relative;
+    top: 0;
+    left: 10%;
+    width: 80%;
+    margin-top: 5px;
+}
+#aItem:focus, #aItemRefId:focus{
+    position: relative;
+    left: 25%;
+    width: 50%;
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+}
+#aItemSub, #aCatSub, #aDetSub{
+    position: relative;
+    left: 40%;
+    margin-top: 10px;
+    width: 20%;
+    height: 35px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Nanum Gothic', sans-serif;
+    background-color: rgba(7, 194, 94, 0.712);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+#aCatSub{
+    position: relative;
+    left: 0%;
+    margin-top: 40px;
+    width: 80%;
+    height: 55px;
+}
+
+/* ----------------------TABLE DATA----------------- */
+#table1{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 85%;
+    overflow-y: scroll;
+    /* background-color: lightgreen; */
+}
+#table1 h1{
+    font-size: 1.5em;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #555; 
+}
+.table-product-data{
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 80%;
+}
+#tab {
+    position: relative;
+    top: 0;
+    border-collapse: collapse;
+    font-family: 'Nanum Gothic', sans-serif;
+    width: 100%;
+}
+#tab th{
+    text-align: center;
+    padding: 8px;
+    font-size: 0.9em;
+    color: rgb(73, 73, 73);
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+#tab td {
+    text-align: center;
+    padding: 8px;
+    font-size: 0.9em;
+    overflow: hidden;
+}
+#tab tr:nth-child(even) {background-color: rgba(7, 194, 94, 0.288);}

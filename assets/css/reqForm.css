@@ -1,0 +1,269 @@
+.contain{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 10% 90%;
+    grid-row-gap: 0%;
+    /* background-color: rgba(255, 182, 193, 0.493); */
+}
+#bodySec{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(255, 0, 0, 0.253); */
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-column-gap: 0%;
+}
+.column{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* background-color: lightblue; */
+}
+.dash-titles{
+    border-bottom: none;
+}
+.reqForm{
+    color: black;
+    position: relative;
+    top: 10%;
+    width: 100%;
+    height: 80%;
+    text-align: center;
+    border-radius: 10px;
+    /* background-color: rgba(0, 0, 0, 0.74); */
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.reqForm select, .reqForm input{
+    width: 70%;
+    height: 35px;
+    margin-top: 10px;
+    text-align: left;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: rgb(104, 104, 104);
+    background-color: white;
+    border: none;
+    border-bottom: 2px solid rgba(7, 194, 94, 0.596);
+    cursor:pointer;
+    position:relative;
+    margin-top: 10px;
+    outline: none;
+    box-shadow: none;
+}
+#Submit{
+    position: relative;
+    left: 0%;
+    margin-top: 25px;
+    width: 50%;
+    height: 35px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-bottom: none;
+    font-family: 'Nanum Gothic', sans-serif;
+    background-color: rgba(7, 194, 94, 0.596);
+}
+
+/* -------------- TABLE SECTION ----------------- */
+.requisition-table{
+    position: relative;
+    width: 100%;
+    height: 90%;
+    /* background-color: rgba(255, 255, 0, 0.315); */
+}
+
+#addReqBut, #update, #delete{
+    position: relative;
+    top: 3em;
+    margin: 0;
+    margin-left: 42.5%;
+    margin-right: 40%;
+    width: 150px;
+    height: 35px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Nanum Gothic', sans-serif;
+    background-color: rgba(7, 194, 94, 0.712);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+#update, #delete{
+    position: relative;
+    top: 0;
+    margin: 0;
+    width: 80px;
+    color: white;
+    /* border: 2px solid rgba(252, 235, 2, 0.781); */
+    background-color: rgb(252, 235, 2);  
+}#delete{
+    border: 2px solid rgba(252, 2, 2, 0.781);
+}.contain{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 10% 90%;
+    grid-row-gap: 0%;
+    /* background-color: rgba(255, 182, 193, 0.493); */
+}
+#bodySec{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(255, 0, 0, 0.253); */
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-column-gap: 0%;
+}
+.column{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /* background-color: lightblue; */
+}
+.dash-titles{
+    border-bottom: none;
+}
+.reqForm{
+    color: black;
+    position: relative;
+    top: 10%;
+    width: 100%;
+    height: 80%;
+    text-align: center;
+    border-radius: 10px;
+    /* background-color: rgba(0, 0, 0, 0.74); */
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.reqForm select, .reqForm input{
+    width: 70%;
+    height: 35px;
+    margin-top: 10px;
+    text-align: left;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: rgb(104, 104, 104);
+    background-color: white;
+    border: none;
+    border-bottom: 2px solid rgba(7, 194, 94, 0.596);
+    cursor:pointer;
+    position:relative;
+    margin-top: 10px;
+    outline: none;
+    box-shadow: none;
+}
+#Submit{
+    position: relative;
+    left: 0%;
+    margin-top: 25px;
+    width: 50%;
+    height: 35px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-bottom: none;
+    font-family: 'Nanum Gothic', sans-serif;
+    background-color: rgba(7, 194, 94, 0.596);
+}
+
+/* -------------- TABLE SECTION ----------------- */
+.requisition-table{
+    position: relative;
+    width: 100%;
+    height: 90%;
+    /* background-color: rgba(255, 255, 0, 0.315); */
+}
+
+#addReqBut, #update, #delete{
+    position: relative;
+    top: 3em;
+    margin: 0;
+    margin-left: 42.5%;
+    margin-right: 40%;
+    width: 150px;
+    height: 35px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Nanum Gothic', sans-serif;
+    background-color: rgba(7, 194, 94, 0.712);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+#update, #delete{
+    position: relative;
+    top: 0;
+    margin: 0;
+    width: 80px;
+    color: white;
+    /* border: 2px solid rgba(252, 235, 2, 0.781);
+    background-color: rgb(255, 244, 94);   */
+    /* border: 2px solid rgba(252, 235, 2, 0.781); */
+    background-color: rgb(62, 152, 255);  
+}#delete{
+    color: white;
+    /* border: 2px solid rgba(252, 2, 2, 0.781); */
+    background-color: rgba(255, 44, 44, 0.781);
+}
+#quan, #rate{
+    width: 40px;
+    height: 25px;
+    text-align: center;
+    border: none;
+    /* border-bottom: 2px solid rgba(49, 49, 49, 0.849);  */
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: none;
+    text-shadow: none;outline: none;
+}
+#rate{width: 90px;}
+#quan:hover, #rate:hover,#quan:focus, #rate:focus{
+    box-shadow: none;
+    text-shadow: none;
+    border: none;outline: none;
+    color: red;
+    font-weight: bold;
+    /* border-bottom: 2px solid rgb(62, 152, 255);   */
+}
+#tot{
+    text-align: right;
+    font-weight: bold;
+    background-color: rgba(253, 59, 59, 0);
+}
+#total-val, #total{
+    color: rgb(255, 27, 65);
+    color: white;
+    border: none;    
+    border-top: 2px solid rgba(255, 33, 33, 0.897);
+    border-bottom: 2px solid rgba(255, 33, 33, 0.897);
+    /* border-bottom: 2px solid rgba(255, 73, 73, 0.486); */
+    background-color: rgba(253, 69, 69, 0.644);
+}
+#total-val{
+    font-weight: bold;    
+    /* border-left: 2px solid rgba(253, 59, 59, 0.486); */
+}
